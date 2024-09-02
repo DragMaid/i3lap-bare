@@ -1,0 +1,3 @@
+#!/bin/sh
+cp ./tmux-sessionizer /usr/local/bin
+cp ./tmux-back-to-vim /usr/local/bin
