@@ -23,7 +23,7 @@ background = "#222222"
 foreground = "#F9F9F9"
 
 [font]
-size = 8.5
+size = 11
 
 [font.bold]
 family = "hack"
@@ -45,13 +45,17 @@ style = "Regular"
 action = "ToggleFullscreen"
 key = "F11"
 
-[[keyboard.bindings]]
-chars = "/usr/local/bin/tmux-sessionizer \r"
-key = "F"
-mods = "Control"
+# [[keyboard.bindings]]
+# chars = "/usr/local/bin/tmux-sessionizer \r"
+# key = "F"
+# mods = "Control"
 
 [scrolling]
 history = 50000
 
 [window]
 opacity = 0.98
+
+[window.dimensions]
+columns = 110
+lines = 35
