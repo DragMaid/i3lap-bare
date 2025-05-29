@@ -1,11 +1,17 @@
+vim.o.mouse = ""
+
+vim.o.background = 'dark'
+--vim.g.gruvbox_contrast_dark = 'dark'
+vim.cmd([[colorscheme gruvbox]])
+
 -- Set theme transparency
-vim.cmd.colorscheme('gruvbox')
---vim.cmd.colorscheme('kanagawa')
 vim.cmd([[
-	highlight Normal     ctermbg=NONE guibg=NONE
-	highlight LineNr     ctermbg=NONE guibg=NONE
-	highlight SignColumn ctermbg=NONE guibg=NONE
+    highlight Normal     ctermbg=NONE guibg=NONE
+    highlight LineNr     ctermbg=NONE guibg=NONE
+    highlight SignColumn ctermbg=NONE guibg=NONE
 ]])
+
+vim.opt.guifont="hack_nerd_font:h21"
 
 -- Basic vim configs
 vim.g.python_recommended_style = false
@@ -14,6 +20,7 @@ vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+vim.opt.foldenable = false
 
 -- UI related configs
 vim.cmd("syntax on")
@@ -26,6 +33,7 @@ vim.opt.autoindent = true
 vim.opt.relativenumber = true
 vim.opt.number = true
 vim.opt.autoread = true
+vim.opt.colorcolumn = "120"
 
 -- Indentation settings
 vim.opt.tabstop = 4
@@ -56,4 +64,5 @@ vim.api.nvim_exec([[
 
 vim.api.nvim_exec([[
     au FocusGained,BufEnter * :checktime
+    au VimLeave * :!clear
 ]], false)
