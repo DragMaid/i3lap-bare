@@ -113,8 +113,8 @@ vim.api.nvim_create_autocmd("FileType", {
 })
 
 -- Shortcuts for quickfix list navigation
-vim.keymap.set("n", "<C-j>", "<cmd>cnext<cr>", { silent = true, noremap = true })
-vim.keymap.set("n", "<C-k>", "<cmd>cprev<cr>", { silent = true, noremap = true })
+vim.keymap.set("n", "<C-n>", "<cmd>cnext<cr>", { silent = true, noremap = true })
+vim.keymap.set("n", "<C-b>", "<cmd>cprev<cr>", { silent = true, noremap = true })
 
 -- Shortcuts to operate the diagnostic messages
 vim.keymap.set('n', '[d', function() vim.diagnostic.goto_prev() end, opts)

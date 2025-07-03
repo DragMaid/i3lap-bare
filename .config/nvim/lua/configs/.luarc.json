@@ -1,0 +1,11 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "ToggleUndotree",
+        "FindNERDTree",
+        "ToggleNERDTree",
+        "CppCompile",
+        "opts",
+        "obsidian_format"
+    ]
+}

@@ -104,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["copilot.vim"] = {
-    loaded = true,
-    path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
-  },
   ["emmet-vim"] = {
     loaded = true,
     path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/emmet-vim",
@@ -224,11 +219,6 @@ _G.packer_plugins = {
     path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["trouble.nvim"] = {
-    loaded = true,
-    path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/trouble.nvim",
-    url = "https://github.com/folke/trouble.nvim"
-  },
   ultisnips = {
     loaded = true,
     path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/ultisnips",
@@ -248,11 +238,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/vim-startify",
     url = "https://github.com/mhinz/vim-startify"
-  },
-  ["vim-visual-multi"] = {
-    loaded = true,
-    path = "/home/jakekato/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
-    url = "https://github.com/mg979/vim-visual-multi"
   },
   vimtex = {
     loaded = true,

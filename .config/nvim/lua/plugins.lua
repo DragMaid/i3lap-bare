@@ -2,9 +2,6 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use { 'wbthomason/packer.nvim' }
 
-    -- Mutiline selection
-    use { 'mg979/vim-visual-multi', branch = 'master' }
-
     -- Vim lua support
     use { 'nvim-lua/plenary.nvim' }
 
@@ -90,7 +87,7 @@ return require('packer').startup(function(use)
         requires = { "nvim-lua/plenary.nvim" }
     })
 
-    use({ 'github/copilot.vim' })
+    --use({ 'github/copilot.vim' })
 
     use({ 'preservim/nerdtree' })
 
