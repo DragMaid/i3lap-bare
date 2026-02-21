@@ -60,13 +60,14 @@ function CMap(mode, lhs, rhs, opts)
     vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 
-CMap('i', '"', '""<left>')
-CMap('i', "'", "''<left>")
-CMap('i', '[', '[]<left>')
-CMap('i', '(', '()<left>')
-CMap('i', '{', '{}<left>')
-CMap('i', '{<CR>', '{<CR>}<ESC>O')
-CMap('i', ';<CR>', '{<CR>};<ESC>O')
+-- Automatically close brackets
+--CMap('i', '"', '""<left>')
+--CMap('i', "'", "''<left>")
+--CMap('i', '[', '[]<left>')
+--CMap('i', '(', '()<left>')
+--CMap('i', '{', '{}<left>')
+--CMap('i', '{<CR>', '{<CR>}<ESC>O')
+--CMap('i', ';<CR>', '{<CR>};<ESC>O')
 
 -- Shortcuts for the primegen harpoon
 local mark = require("harpoon.mark")

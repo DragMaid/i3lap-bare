@@ -40,10 +40,10 @@ return require('packer').startup(function(use)
     -- Web development
     use { 'mattn/emmet-vim' }
     use { 'sirver/ultisnips' }
-    use { 'ckunte/latex-snippets-vim', tag = '*' }
 
     -- Latex development
     use { 'lervag/vimtex' }
+    use { 'ckunte/latex-snippets-vim', tag = '*' }
 
     -- web dev icons
     use { 'nvim-tree/nvim-web-devicons' }

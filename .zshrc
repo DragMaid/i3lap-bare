@@ -97,8 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 alias config='/usr/bin/git --git-dir=$HOME/.config-bare/ --work-tree=$HOME'
 alias lgb='lazygit --git-dir=$HOME/.config-bare --work-tree=$HOME'
 
@@ -116,24 +114,10 @@ export TERMINFO_DIRS=/usr/share/terminfo/
 #stty erase ^\?
 #bindkey -a "\e[3~"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/jakekato/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/jakekato/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/jakekato/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/jakekato/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 # Created by `pipx` on 2025-01-24 15:06:39
 export PATH="$PATH:/home/jakekato/.local/bin"
 export PATH=$PATH:/usr/local/mysql/bin
+export PATH=$PATH:/usr/local/bin
 
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"

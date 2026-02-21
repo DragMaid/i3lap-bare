@@ -23,7 +23,7 @@ background = "#222222"
 foreground = "#F9F9F9"
 
 [font]
-size = 11
+size = 10
 
 [font.bold]
 family = "hack"
@@ -57,5 +57,5 @@ history = 50000
 opacity = 0.98
 
 [window.dimensions]
-columns = 110
-lines = 35
+columns = 130
+lines = 60
